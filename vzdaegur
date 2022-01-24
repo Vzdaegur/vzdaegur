@@ -1,0 +1,216 @@
+<head><style>
+    body {
+      background-color: lightgreen;
+    }
+
+    h3 {
+      font-size: 150%;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      font-size: 105%;
+    }
+  </style>
+  </head>
+  <body><h1 style="text-align:center;"> East Coast Park </h1>
+  <div class="td-post-author-name"><div class="td-author-by">By</div> <a href="file:///C:/Users/emman/Downloads/htmlviewer%20(9).html">Emmanuel Doo</a><div class="td-author-line"> - </div> </div>
+  <h3>
+    <b>Introduction</b>
+    <br>
+  </h3>
+  <p>East Coast Park is one of Singapore's more vibrant parks with many activities for everyone. Click Below to see what each activity has in store for you! </p>
+  <ol>
+    <li>
+      <a href="#C1">Cycling</a>
+    </li>
+    <li>
+      <a href="#C2">Skate Park</a>
+    </li>
+  </ol>
+  <style>
+    h2 {
+      background-color: lightpink;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    h2 {
+      line-height: 30px;
+  </style>
+  <h2 id="C1">Cycling <br>
+    <img src="https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/east-coast-park/ecp-26th-sept-08-180.jpg" alt="East Coast Park - Parks &amp;amp; Nature Reserves - Gardens, Parks &amp;amp; Nature -  National Parks Board (NParks)" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 600px; height: 289.333px; margin: 0px;">
+    <p style="font-size:75%">One of our more popular activities is cycling. If you do not have a bike, you can check out these bicycle rental shops below.</p>
+    <ul>
+      <style>
+        ul {
+          text-align: left;
+        }
+
+        ul {
+          font-size: 75%;
+        }
+      </style>
+      <li>
+        <a href="https://gocycling.sg/singapore/">GO Cycling</a>
+      </li>
+      <li>
+        <a href="https://coastlineleisure.com.sg/">Coastline Leisure</a>
+      </li>
+    </ul>
+  </h2>
+  <hr>
+  <div>
+    <h2 id="C2"> Skate Park <br>
+    <img src="https://www.mondaygotravel.com/wp-content/uploads/2020/09/East-Coast-Park-Xtreme.gif" data-noaft="1" style="width: 600px; height: 289.333px; margin: 0px;">
+      <p style="font-size:70%">If you are a daredevil and would like to test your skills, <br> Come and show off at our skate park! <br> Location: <a href=">https://www.streetdirectory.com/sg/xtreme-skatepark-east-coast/1250-east-coast-parkway-468966/107744_414347.html">Xtreme Skatepark</a>
+      </p>
+    </h2>
+  </div>
+  <ul>
+    <li>
+      <a class="active" href="index.html">Home</a>
+    </li>
+    <li>
+      <a href="page2.html">Page 2</a>
+    </li>
+    <li>
+      <a href="page3.html">Page 3</a>
+    </li>
+    <li>
+      <a href="page4.html">Page 4</a>
+    </li>
+  </ul>
+  
+  <div class="right-content column">
+    <div class="ccpar2 parsys">
+      <div class="sidebar-content parbase section">
+        <div class="boxup clearfix" style="width: 360px;">
+          <aside>
+            <ul class="icon-list grey-bg padded bottom-border-white margin-none" itemscope="" itemtype="http://schema.org/CivicStructure">
+              <!-- Address Book -->
+              <li>
+                <span class="icon-pin"></span>
+                <div>
+                  <h5 itemprop="name">East Coast Park</h5>
+                  <small>
+                    <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                      <span itemprop="streetAddress">Along East Coast Parkway and East Coast Park Service Road</span>, <span itemprop="addressLocality">Singapore</span>
+                      <span class="hidden" itemprop="addressCountry">SG</span>
+                    </span>
+                  </small>
+                  <br>
+                  <span itemprop="geo" itemscope="" itemtype="http://schema.org/GeoCoordinates">
+                    <meta itemprop="latitude" content="1.300784">
+                    <meta itemprop="longitude" content="103.912187">
+                  </span>
+                  <a href="javascript:;" class="js-popup-map">See on map</a>
+                </div>
+              </li>
+              <!-- Opening Hours -->
+              <!-- Travel Time -->
+              <!-- Website -->
+              <li>
+                <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/east-coast-park" target="_blank" class="icon-website" itemprop="url" onclick="sidebarLinkAnalytics('https:\/\/www.nparks.gov.sg\/gardens\u002Dparks\u002Dand\u002Dnature\/parks\u002Dand\u002Dnature\u002Dreserves\/east\u002Dcoast\u002Dpark','Visit official website');">Click Here to Find Out More!</a>
+              </li>
+              <!-- Singapore Tourism Awards -->
+              <!-- What's on -->
+              <!-- Bok Tickets -->
+              <!-- Cruise Lines -->
+              <!-- Trails & Tours -->
+              <!-- Download walking trail guide -->
+              <!-- Other CTA -->
+            </ul>
+            <!-- Twitter -->
+          </aside>
+        </div>
+        <script type="text/javascript">
+          // Google map 
+          // only can init once per page 
+          google.maps.event.addDomListener(window, 'load', initSideBarMap);
+
+          function initSideBarMap() {
+            var popupData = {
+              'title': 'Around East Coast Park',
+              'labellocation': '',
+              'zoom': parseInt("16") % 1 === 0 ? parseInt("16") : '',
+              'location': '',
+              'markerImg': '/etc/designs/ys/en/images/common/map/pin.png',
+              'labelnearest': 'Nearest attractions',
+              'labelwithin': ''
+            };
+            /* 
+
+            type:   
+
+            2 = current 
+
+            1 = within vicinity (not in use) 
+
+            3 = nearest attractions 
+
+            */
+            var popupPins = [{
+              'type': '2',
+              'img': '/content/dam/desktop/global/see-do-singapore/nature-wildlife/east-coast-park-carousel01-square.jpg',
+              'title': 'East Coast Park',
+              'lat': '1.300784',
+              'lng': '103.912187',
+              'desc': 'With so many attractions packed into this 15-kilometre stretch of beaches, you’ll never run out of things to do.',
+              'ctaLabel': '',
+              'cta': ''
+            }];
+            $('.js-popup-map').on('click', function() {
+              YOURSINGAPORE.googleMap.showGooglePopup(popupData, popupPins);
+            });
+          }
+
+          function sidebarLinkAnalytics(link, linkName) {
+            var thisPageName = 'East Coast Park';
+            var componentName = 'sidebar\u002Dcontent'.replace(/-/g, " ");
+            var linkTag = componentName + '-detailcontent|' + linkName.toLowerCase() + '|' + pathname;
+            adobedataLayer.event = {
+              'eventCategory': componentName,
+              'eventAction': 'click',
+              'eventLabel': componentName,
+              'eventName': thisPageName,
+              'linkname': linkTag
+            }
+            adobedataLayer.partner = {
+              'partnerlink': link,
+            }
+            adobedataLayer.editorial = {
+              'contentPartnerName': thisPageName + " - " + linkName
+            }
+            _satellite.track('sidebar-content-clickthrough');
+          }
+
+          function sidebarBookTicketsLinkAnalytics(link, linkName, pagename) {
+            var thisPageName = 'East Coast Park';
+            var componentName = 'sidebar\u002Dcontent'.replace(/-/g, " ");
+            var linkTag = componentName + '-detailcontent|' + linkName.toLowerCase() + '|' + pathname;
+            adobedataLayer.event = {
+              'eventCategory': componentName,
+              'eventAction': 'click',
+              'eventLabel': componentName,
+              'eventName': thisPageName,
+              'linkname': linkTag
+            }
+            adobedataLayer.partner = {
+              'partnerLink': link
+            }
+            adobedataLayer.editorial = {
+              'contentPartnerName': thisPageName + " - " + linkName
+            }
+            _satellite.track('sidebar-content-booktickets-clickthrough');
+          }
+        </script>
+      </div>
+      <div class="didyouknow parbase section"></div>
+    </div>
+  </div></body>
